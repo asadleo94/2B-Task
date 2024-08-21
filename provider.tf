@@ -4,5 +4,4 @@ provider "azurerm" {
 }
 
 provider "azuread" {
-  # Optional if azurerm provider manages Azure AD, else required.
 }
