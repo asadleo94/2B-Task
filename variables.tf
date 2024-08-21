@@ -10,18 +10,17 @@ variable "rg_name" {
   default     = "2B-001"  
 }
 
-# Variable for tags 
+# Variable for tag 
 variable "env" {
   type        = string
   default     = "Dev" 
 }
-# Variable for tag
 
 variable "owner" {
   type        = string
   default     = "2B"
 }
-# Variable for tags 
+# Variable for VM User
 variable "user" {
   type        = string
   default     = "Rootadmin"
